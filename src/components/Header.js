@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const Header = () => {
   return (
     <View style={styles.viewStyle}>
-      <Text style = {styles.textstyle}>
+      <Text style = {styles.textStyle}>
         Albums
       </Text>
     </View>
@@ -13,7 +13,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   viewStyle: {
-    backgroundColor: '#F8F8F8',
+    backgroundColor: '#ffcfba',
     alignItems: 'center',
     justifyContent: 'center',
     height: 90,
@@ -23,7 +23,9 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
   },
   textStyle: {
-    fontSize: 20
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#40281d",
   }
 });
 
