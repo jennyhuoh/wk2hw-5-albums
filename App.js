@@ -4,11 +4,14 @@ import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 const App = () => {
-  return (
-    <ScrollView>
+  return ( 
+    <View>
       <Header />
-      <AlbumList />
-    </ScrollView>
+      <ScrollView>
+       
+        <AlbumList />
+      </ScrollView>
+    </View>
   );
 }
 
