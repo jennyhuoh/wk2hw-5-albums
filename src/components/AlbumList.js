@@ -4,7 +4,7 @@ import { apisAreAvailable } from 'expo';
 
 const AlbumList = () => {
   return (
-    <View>
+    <View style = {styles.allStyle}>
       <View style = {styles.cardContainerStyle}>
         <View style = {styles.thumbnailContainerStyle}>
           <Image
@@ -134,6 +134,10 @@ const AlbumList = () => {
 }
 
 const styles = StyleSheet.create({
+  allStyle: {
+    height: 2080,
+    backgroundColor: "rgba(255, 209, 253,0.7)",
+  },
   cardContainerStyle: {
     backgroundColor: "rgba(255, 209, 253,0.7)",
   },
